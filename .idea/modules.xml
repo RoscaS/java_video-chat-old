@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PCoursJava.iml" filepath="$PROJECT_DIR$/PCoursJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PDeploy.iml" filepath="$PROJECT_DIR$/PDeploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_ChatVideoOld.iml" filepath="$PROJECT_DIR$/.idea/Java_ChatVideoOld.iml" />
     </modules>
   </component>
 </project>

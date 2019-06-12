@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/PDeploy/Deploy/ext/clavier.jar"/>
+	<classpathentry kind="lib" path="/PDeploy/Deploy/ext/HmTimes.jar"/>
+	<classpathentry kind="lib" path="/PDeploy/Deploy/ressources.jar"/>
+	<classpathentry kind="lib" path="/PDeploy/Deploy/ext/BilatRmiTools.jar"/>
+	<classpathentry kind="lib" path="/PDeploy/Deploy/ext/bridj-0.6.2.jar"/>
+	<classpathentry kind="lib" path="/PDeploy/Deploy/ext/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="/PDeploy/Deploy/ext/webcam-capture-0.3.10.jar" sourcepath="/PDeploy/Deploy/ext/libs"/>
+	<classpathentry kind="lib" path="/PDeploy/Deploy/ext/slf4j-nop.jar.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

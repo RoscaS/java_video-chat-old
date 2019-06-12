@@ -1,0 +1,201 @@
+Module 2241-Langages_et_Frameworks-2241.1-Java
+Classes : INF2dlm_b / INF2iie_a
+
+---------------------------------------- 28.09.2017 ----------------------------------------
+
+1.	Faire une classe Quadratique.java du style ax^2+bx+c=0
+	Indication :
+		- Output de solve surement tableau
+2.	Et sa classe UseQuadratique.java
+
+---------------------------------------- 05.10.2017 ----------------------------------------
+
+1.	Implementer la methode print pour les deux methodes listx et listy
+	print(listx, listy)
+	--> x1	y1
+		x2	y2
+		x3	y3
+		x4	y4
+	De deux manieres differentes en evitant le musee des horreurs :)
+---------------------------------------- 19.10.2017 ----------------------------------------
+
+1.	Combien de fois en moyenne faut-il lancer un de a six faces pour obtenir
+	au moins une fois chacune des six faces.
+	
+	Indications :	- Dans container creez un package de
+					- Employez un container subtile
+					- Employez la classe Random.
+					- Prevoyez si possible un code generalisable
+					  	- Nombres de face du de (nbfaces) -> Nombre entier
+					  	- Nombres d'experience aleatoire -> Nombre entier
+					- Resultat arondi supperieur
+
+2.	Creation d'une machine virtuelle Windows 7 ou 10 (64bits)
+---------------------------------------- 26.10.2017 ----------------------------------------
+
+1.	Ecrire 3 tests unitaire pour l'equation quadratique
+	Aussi different que possible
+	lancer tous les tests unitaires du workspace en 1 click
+	
+2.	Créer trois classes tab1Dtools, useTab1D, testTab1D: dans tab1Dtools, addition de deux
+	tableaux 1D de meme taille, type double.
+	
+---------------------------------------- 02.11.2017 ----------------------------------------	
+
+1.	Exercer manipulations Eclipse de deployement et d'execution.
+
+---------------------------------------- 09.11.2017 ----------------------------------------
+
+1.	Préparer une machine virtuelle ubuntu 64 bits 16.04 vierge.
+
+2.	Finaliser le UseRoue pour tester la classe garage
+	Instancier voiture
+	ajouter voiture
+	supprimer voiture
+	afficher (pendant après avant)
+	...
+
+---------------------------------------- 16.11.2017 ----------------------------------------
+
+1.	Finaliser UseGarage avec la nouvelle fonctionnalite de copie Constructeur (Protocole de chimie)
+	
+---------------------------------------- 23.11.2017 ----------------------------------------
+
+1.	Test JUnit : Pour les methodes publiques non-statique de la classe complexe.
+2.	Implementer une fonction pour elever a la puissance n entier.
+3.	Soustraction et division de nombre complexe.
+4.	Faire une methode toString ultra jolie, avec StringBuilder, avec attribut private static final.
+		(re,im) = (1,2)
+		(mod, arg) = (.,..)
+
+---------------------------------------- 30.11.2017 ----------------------------------------
+1.	Test JUnit sur Gravite 
+  strategie : fabriquer n nombre complexe repartis uniformément sur un cercle de centre zc et de rayon r, resultat : zc
+  /!\ MathTools pour tomber sur zc
+  createPolaire, equals et gravite
+2.	Toutes les méthodes isEquals peuvent facilement être améliorer, trouver optimisation (mettre le code actuel dans un if(quel if?))
+  
+  En classe : 
+3.	cloneOf clone avec prof au tableau sur la classe Garage
+
+4.	amélioration de la isEquals de la classe car (iterable)
+
+---------------------------------------- 14.12.2017 ----------------------------------------
+
+1.	Methode static : Mois from index.  (proto)
+
+2.	Test JUnit pour la classe Stack.
+
+3.	Prendre les PI et tout ce qui faut avec
+
+4.	Avoir une VM Ubuntu
+
+---------------------------------------- 21.12.2017 ----------------------------------------
+
+1.	Exercice classe interne anonyme pour tri decroissant
+
+---------------------------------------- 11.01.2018 ----------------------------------------
+
+1.	Pouvoir executer des programmes java sur la raspberry pi -> /!\ Demo /!\
+
+---------------------------------------- 25.01.2018 ----------------------------------------
+
+1.	Jouer avec les 3 exemples de polymorphisme indirect et réviser la théorie qui va avec.
+2.	Faire l'exercice hierarchie
+	Expliquer pourquoi notre explication ne marche si elle marche pas.
+
+---------------------------------------- 08.03.2018 ----------------------------------------
+
+1.	Finir l'exercice de click du bouton
+2.	Critiquer sa partie 1 (tip : doit etre facilement generalisable)
+3.	Essayer de faire mieux
+
+---------------------------------------- 15.03.2018 ----------------------------------------
+
+1.	Faire un exercice tout bête, sans layout.
+	Indication, comment faire sans employer de layout ? :
+		-> setLayout(null);
+		-> JButton.setSize(x, y);
+		-> JButton.setLocation(x, y);
+	Contrainte Trilogie : UseJFrameYYY / JFrameYYY / JPanelYYY
+	A faire :
+		-> Center le bouton sur x/y
+		-> Même en cas de resize
+		
+---------------------------------------- 22.03.2018 ----------------------------------------
+
+1. Création d'une interface graphique avec un bouton dans un bouton!!!
+	Evénement dans la console qui indique s'il l'on clic sur le bouton interne ou externe
+	Contraintes : 1 seul listener & 2 boutons visibles
+	
+2. 1 fenêtre avec un seul bouton centré verticalement et horizontalement en utilisant 2 Box
+
+---------------------------------------- 29.03.2018 ----------------------------------------
+
+1. Amélioration de l'inerface : UIManager.setLookandfeel...
+2. Commencer à réviser le TE
+3. Faire deux classes suplémentaire dans la décoration (JDecoratorMarge) : 
+	1) JDecoratorMargeH
+	2) JDecoratorMargeV
+	
+Kim doit utiliser sa technique.
+
+4. Finir l'exercice du tableau.
+
+
+---------------------------------------- 19.04.2018 ----------------------------------------
+
+Terminer l'exercice "Polygon"
+Dessiner un polygone avec n coté et de longeur l
+Et le faire tourner !
+
+---------------------------------------- 03.05.2018 ----------------------------------------
+
+Ecrire un code en Java additionnant deux vecteurs de même taille avec 2 thread séparé.
+Contrainte : utiliser une structure objet
+class : 
+AddVecteur
+2 input : v1 v2  (double[]) de même taille
+output : vResult
+tools : threadA threadB, unique objet runnable
+
+Bonus : 
+créer une classe IntervalInt implémentant Iterable 
+employé IntervalInt dans l'objet Runnable
+
+Bonus2 : 
+Dérivera de Interval<T>
+
+---------------------------------------- 10.05.2018 ----------------------------------------
+
+Refaire l'exercice sur l'addition des vecteurs
+
+---------------------------------------- 17.05.2018 ----------------------------------------
+
+1. Créer une classe Joueur avec deux atributs:
+	- nom:String
+	- prix:int
+2. Créer une classe équipe avec comme Input:
+	- nom:String
+	
+	- listJoueur:List<Joueur>
+3. Test la sérialisation dans la fonction useComplexe de la classe UseSerialization avec la classe équipe
+4. Développer isEquals dans joueur et equipe afin de valider que les deux objets soient identiques
+
+---------------------------------------- 24.05.2018 ----------------------------------------
+
+1. Recréer RMI pour le package PCSecret
+2. PCSecret clientSide work : afficher l'heure dans le titre d'une JFrame
+
+
+------------------------------------------- PROJET ------------------------------------------
+
+Responsabilités DLM:
+- Réseau (RMI)
+- Interface graphique
+- Webcam+cryptage
+
+Responsabilités IIE:
+- Monitoring de la voiture 
+- Configuration de la voiture à distance
+- Utilisation de l'existant
